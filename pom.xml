@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.aws.codestar.projecttemplates</groupId>
     <artifactId>ops</artifactId>
-    <version>3.1.0</version>
+    <version>6.3.1</version>
     <!--<version>3.6.6-SNAPSHOT</version> -->
     <packaging>war</packaging>
     <name>Ops - Sample Spring MVC Application</name>
@@ -14,7 +14,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
 
-        <sonar.host.url>http://44.195.60.244:9000</sonar.host.url>
+        <sonar.host.url>http://34.200.212.182:9000</sonar.host.url>
         <sonar.organization>c3ops-java</sonar.organization>
         <sonar.projectKey>c3ops-java</sonar.projectKey>
         <sonar.login>sqp_461c4f18da781d40d96ba5789fe21aaaa0082b09</sonar.login>
@@ -27,13 +27,13 @@
     <repository>
         <id>release</id>
         <name>libs-release-local</name>
-        <url>http://3.231.211.196:8082/artifactory/libs-release-local/</url>
+        <url>http://3.239.189.82:8082/artifactory/libs-release-local/</url>
     </repository>
 
     <snapshotRepository>
         <id>snapshots</id>
         <name>libs-snapshot-local</name>
-        <url>http://3.231.211.196:8082/artifactory/libs-snapshot-local/</url>
+        <url>http://3.239.189.82:8082/artifactory/libs-snapshot-local/</url>
     </snapshotRepository>
 
 </distributionManagement>
